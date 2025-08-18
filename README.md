@@ -28,3 +28,7 @@ pip install -r requirements.txt
 | OPTIMIZER                        | Adam      | —                                          |
 | LEARNING_RATE                    | 0.01      | —                                          |
 
+
+
+
+![DML Figure](figures/Model Selection.png)
