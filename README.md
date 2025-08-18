@@ -31,4 +31,8 @@ pip install -r requirements.txt
 
 
 
-![DML Figure](figures/model_selection.jpeg)
+![Model_Selection](figures/model_selection.jpeg)
+
+
+
+![HybridCompFL](figures/HybridCompFL.jpeg)
