@@ -31,4 +31,4 @@ pip install -r requirements.txt
 
 
 
-![DML Figure](figures/Model Selection.png)
+![DML Figure](figures/model_selection.jpeg)
