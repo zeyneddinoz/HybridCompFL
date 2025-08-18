@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 
 
-![Model_Selection](figures/model_selection.jpeg)
+<img src="figures/model_selection.jpeg" alt="Model Selection" width="60%"/>
 
 
 
