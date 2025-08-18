@@ -6,12 +6,10 @@ pip install -r requirements.txt
 
 
 
-![DML Figure](figures/DML.jpeg)
-
 
 <p align="center">
-  <img src="figures/DML.jpeg" alt="Static Diagram" width="49%" style="max-width: 100%; height: auto; margin-right: 2%;">
-  <img src="figures/FL.jpeg" alt="Animated Demo" width="49%" style="max-width: 100%; height: auto;">
+  <img src="figures/DML.jpeg" alt="Static Diagram" width="48%" style="max-width: 100%; height: auto; margin-right: 2%;">
+  <img src="figures/FL.jpeg" alt="Animated Demo" width="51%" style="max-width: 100%; height: auto;">
   <em>  <br><be> Figure 2: The left shows the DML. The right shows the FL. </em>
 </p>
 
