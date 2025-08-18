@@ -7,18 +7,10 @@ pip install -r requirements.txt
 
 
 
-<p align="center">
-  <img src="figures/1- DML.pdf" alt="Static Diagram" width="58%" style="max-width: 100%; height: auto; margin-right: 2%;">
-  <img src="figures/2- FL Figures.pdf" alt="Animated Demo" width="39.5%" style="max-width: 100%; height: auto;">
-  <em>  <br><be> Figure 1: The left shows the DML. The right shows FL. </em>
-</p>
 
 
 
-
-
-
-| Parameter                        | Value     | Options                                    |
+| Hyperparamaters                  | Options   | Alternatives                               |
 |----------------------------------|-----------|--------------------------------------------|
 | MODEL_NAME                       | VGG16     | LeNet \| AlexNet \| VGG16                  |
 | DATASET_NAME                     | CIFAR10   | MNIST \| FashionMNIST \| CIFAR10           |
