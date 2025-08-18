@@ -6,7 +6,7 @@ pip install -r requirements.txt
 
 
 
-
+![DML Figure](figures/DML.jpeg)
 
 
 
