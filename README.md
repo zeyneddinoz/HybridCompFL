@@ -3,13 +3,12 @@
 Authors:
 
 
-To run experiments, and visualize results, install the required packages using Python (version 3.10 or higher):
+To run experiments and visualize results, install the required packages using Python (version 3.10 or higher):
 
 ```python
 pip install -r requirements.txt
 ```
 
-pip install -r requirements.txt
 
 
 
