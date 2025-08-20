@@ -42,3 +42,8 @@ pip install -r requirements.txt
 
 
 ![HybridCompFL](figures/HybridCompFL.jpeg)
+
+
+> [!NOTE]
+>
+> > In the current version of the code, min_nonzero=0.01 this cause a high sparsification result during quantization (While sparsification amount is 0.1, and sparsification % of sparsed model is 10%, for the quantized model it can increase to about 60%, due to many weights in the VGG16 trained with CIFAR10 to be smaller then 0.01).
