@@ -1,6 +1,8 @@
 # HybridCompFL: Model-Heterogeneous Federated Learning via Data-free Hybrid Model Compression
 
-Authors:
+**Authors:**
+
+**Affiliation:**
 
 
 To run experiments and visualize results, install the required packages using Python (version 3.10 or higher):
