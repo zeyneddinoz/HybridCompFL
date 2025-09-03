@@ -25,22 +25,10 @@ pip install -r requirements.txt
 | Model & Dataset   | Aggregation Strategy | Global Round | Total Devices in the System | Participation Rate | Percentage of Capable Devices | Local Epoch | Batch Size | Optimizer | Learning Rate |
 |-------------------|----------------------|--------------|-----------------------------|--------------------|-------------------------------|-------------|------------|-----------|---------------|
 | VGG16 & CIFAR10   | FedAVG               | 50           | 100                         | 0.5                | 0.2                           | 5           | 64         | Adam      | 0.001         |
+| AlexNet & FMNIST  | FedAVG               | 20           | 50                          | 0.5                | 0.2                           | 5           | 64         | Adam      | 0.001         |
+| LeNet & MNIST     | FedAVG               | 20           | 50                          | 0.5                | 0.2                           | 5           | 64         | Adam      | 0.001         |
 
 
-
-| Hyperparamaters                  | Options   | Alternatives                               |
-|----------------------------------|-----------|--------------------------------------------|
-| MODEL_NAME                       | VGG16     | LeNet \| AlexNet \| VGG16                  |
-| DATASET_NAME                     | CIFAR10   | MNIST \| FashionMNIST \| CIFAR10           |
-| AGGREGATION_METHOD               | avg       | avg \| avg_momentum \| adagrad             |
-| GLOBAL_ROUND                     | 50        | —                                          |
-| TOTAL_DEVICES_IN_THE_SYSTEM      | 100       | —                                          |
-| PARTICIPATION_RATE               | 0.5       | —                                          |
-| PERCENTAGE_OF_CAPABLE_DEVICES    | 0.2       | —                                          |
-| LOCAL_EPOCH                      | 5         | —                                          |
-| BATCH_SIZE                       | 64        | —                                          |
-| OPTIMIZER                        | Adam      | —                                          |
-| LEARNING_RATE                    | 0.001     | —                                          |
 
 
 
