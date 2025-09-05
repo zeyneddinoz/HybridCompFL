@@ -24,8 +24,8 @@ pip install -r requirements.txt
 
 | Model & Dataset   | Aggregation Strategy | Global Round | Total Devices in the System | Participation Rate | Percentage of Capable Devices | Local Epoch | Batch Size | Optimizer | Learning Rate |
 |-------------------|----------------------|--------------|-----------------------------|--------------------|-------------------------------|-------------|------------|-----------|---------------|
-| LeNet & MNIST     | FedAVG               | 10           | 50                          | 0.5                | 0.2                           | 5           | 64         | Adam      | 0.001         |
-| AlexNet & FMNIST  | FedAVG               | 10           | 50                          | 0.5                | 0.2                           | 5           | 64         | Adam      | 0.001         |
+| LeNet & MNIST     | FedAVG               | 10           | 50                          | 0.6                | 0.1                           | 5           | 64         | Adam      | 0.001         |
+| AlexNet & FMNIST  | FedAVG               | 10           | 50                          | 0.6                | 0.1                           | 5           | 64         | Adam      | 0.001         |
 | VGG16 & CIFAR10   | FedAVG               | 50           | 100                         | 0.5                | 0.2                           | 5           | 64         | Adam      | 0.001         |
 
 
