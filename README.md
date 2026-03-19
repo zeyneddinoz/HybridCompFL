@@ -2,6 +2,8 @@
 
 # HybridCompFL: Model-Heterogeneous Federated Learning via Data-free Hybrid Model Compression
 
+This repository introduces the source code of the "Resource-aware Models via Pruning and Quantization in Heterogeneous Federated Learning" paper.
+
 **Authors:**
 
 **Affiliation:**
