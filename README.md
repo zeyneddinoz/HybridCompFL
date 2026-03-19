@@ -6,14 +6,8 @@ This repository introduces the source code of the "Resource-aware Models via Pru
 
 **Authors:** [Zeyneddin Oez](https://orcid.org/0000-0002-4216-9854), [Farshad Taebi], [Saeedeh Ghanadbashi](https://orcid.org/0000-0003-0983-301X), [Muhammad Farooq], [Abdollah Malekjafarian](https://orcid.org/0000-0003-1358-1943), [Kristof Van Laerhoven](https://orcid.org/0000-0001-5296-5347), and [Fatemeh Golpayegani](https://orcid.org/0000-0002-3712-6550)
 
-**Affiliation:**
+**Affiliation:** [**University of Siegen**](https://www.uni-siegen.de/start/), and [**University College Dublin**](https://www.ucd.ie/)
 
-
-To run experiments and visualize results, install the required packages using Python (version 3.10 or higher):
-
-```python
-pip install -r requirements.txt
-```
 
 
 
