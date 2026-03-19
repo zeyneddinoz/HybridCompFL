@@ -4,7 +4,7 @@
 
 This repository introduces the source code of the "Resource-aware Models via Pruning and Quantization in Heterogeneous Federated Learning" paper.
 
-**Authors:**
+**Authors:** [Zeyneddin Oez](https://orcid.org/0000-0002-4216-9854), [Farshad Taebi], [Kristof Van Laerhoven](https://orcid.org/0000-0001-5296-5347)
 
 **Affiliation:**
 
