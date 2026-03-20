@@ -68,16 +68,12 @@ The models, datasets, and hyperparameters utilized in this work are listed below
 | VGG16 & CIFAR10   | FedAVG               | 100          | 50                          | 0.6                | 0.2                           | 5           | 64         | Adam      | 0.001         |
 
 
-
-
-
+The results reveal that (see Figure 4), despite substantial compression that requires less memory, energy, and storage demands along with faster communication, many submodels maintain over 90\% of the original weighted F1 score up to 40–60\% sparsity, allowing resources-constrained devices to leverage pretrained compatible models that can be used as initial global models for their FL participation. 
 
 <div align="center">
 
 <img src="simulation_codes/figures/all_experiment_comparison.png" alt="Results" width="100%"/>
 
 **Figure 4:** *Cross Model-Dataset Combination Comparisons of trained global model and pruned-then-quantized submodels.*
-
-The results reveal that (see Figure 4), despite substantial compression that requires less memory, energy, and storage demands along with faster communication, many submodels maintain over 90\% of the original weighted F1 score up to 40–60\% sparsity, allowing resources-constrained devices to leverage pretrained compatible models that can be used as initial global models for their FL participation. 
 
 </div>
