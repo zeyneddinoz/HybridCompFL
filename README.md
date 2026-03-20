@@ -78,5 +78,28 @@ The results reveal that (see Figure 4), despite substantial compression that req
 
 </div>
 
+
+
+This research reveals several promising directions for further investigation:
+
+
+* **Advanced Model Compression Methods:** Quantization and pruning methods can be extended to other compression techniques, such as split learning, knowledge distillation, and low-rank factorization. This can further enhance resource efficiency while addressing multiple challenges simultaneously, paving the way for more robust and practical FL systems.
+
+* **Integration of Multimodality and Meta-Learning:** For environments with diverse data types, the initial global model architecture can be multimodal \cite{ngiam2011multimodal}. Alternatively, meta-learning \cite{finn2017model} approaches can be explored to personalize the global model based on the characteristics of local datasets, ensuring adaptability to heterogeneous data distributions.
+
+* **Incorporation of Semi-Supervised Learning (SSL):** In real-world settings, it is unrealistic to assume that devices consistently possess labeled data, a predominant assumption in FL research. Addressing this limitation through SSL \cite{zhu2005semi} techniques warrants further exploration.
+
+* **Evaluation with Real-World Datasets:** Most current FL algorithms rely on widely-used public benchmarks. Access to and experimentation with real-world datasets are crucial for evaluating algorithms in even more realistic scenarios, thereby bridging the gap between research and practical applications.
+
+* **Enhancing Privacy:** Exploring Differential Privacy or Secure Aggregation can mitigate data leakage in FL. Furthermore, research into efficient model weight clustering (potentially via dimensionality reduction) could enable poisoning attack detection. Sharing cluster-specific global models with clients would reduce performance disparities and boost overall performance by fostering collaboration among devices with similar data distributions.
+
+Such future investigations would allow FL systems to be deployable on a wider variety of systems.
+
+
+**Acknowledgment**
+
+This work was supported by Priority Program SPP2422, Data-driven process modeling in metal forming technology, funded by the German Research Foundation (DFG) under project number 520256321, and also from the RE-ROUTE Project, the European Union’s Horizon Europe research and innovation programme under the Marie Skłodowska-Curie grant agreement No: 101086343.
+
+
 **Contact Information**
 Zeyneddin Oez: zeyneddin.oez@uni-siegen.de
