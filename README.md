@@ -100,7 +100,6 @@ The results reveal that (see Figure 4), despite substantial compression that req
 
 This research reveals several promising directions for further investigation:
 
-
 * **Advanced Model Compression Methods:** Quantization and pruning methods can be extended to other compression techniques, such as split learning, knowledge distillation, and low-rank factorization. This can further enhance resource efficiency while addressing multiple challenges simultaneously, paving the way for more robust and practical FL systems.
 
 * **Integration of Multimodality and Meta-Learning:** For environments with diverse data types, the initial global model architecture can be multimodal \cite{ngiam2011multimodal}. Alternatively, meta-learning \cite{finn2017model} approaches can be explored to personalize the global model based on the characteristics of local datasets, ensuring adaptability to heterogeneous data distributions.
@@ -115,7 +114,6 @@ Such future investigations would allow FL systems to be deployable on a wider va
 
 
 **Acknowledgment**
-
 This work was supported by Priority Program SPP2422, Data-driven process modeling in metal forming technology, funded by the German Research Foundation (DFG) under project number 520256321, and also from the RE-ROUTE Project, the European Union’s Horizon Europe research and innovation programme under the Marie Skłodowska-Curie grant agreement No: 101086343.
 
 
