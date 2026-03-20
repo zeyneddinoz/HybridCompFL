@@ -20,7 +20,7 @@ This repository introduces the source code of the "Resource-aware Models via Pru
 
 <div align="center">
 
-*Figure 1: Each cylinder represents a device*
+*Figure 1: Working steps of Centralized Learning vs Federated Learning.*
 
 </div>
 
