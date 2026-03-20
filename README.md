@@ -15,11 +15,11 @@ This repository introduces the source code of the "Resource-aware Models via Pru
 
 Experiments were conducted using **Raspberry Pi** devices for lower-complexity models and a **simulation environment** for more resource-intensive tasks.
 
-##### Real-World Device Experiments (Raspberry Pi)
+##### Real-World Device Experiments:
 * **Datasets/Models:** MNIST (LeNet) and FashionMNIST (AlexNet).
 * **Source Code:** See the [`raspberry_pi_codes`](./raspberry_pi_codes) folder.
 
-##### Simulation Experiments
+##### Simulation Experiments:
 * **Datasets/Models:** CIFAR10 (VGG16).
 * **Note:** Due to the hardware constraints of Raspberry Pi for training VGG16, these experiments were performed in a simulated environment.
 * **Source Code:** See the [`simulation_codes`](./simulation_codes) folder.
