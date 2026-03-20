@@ -31,7 +31,7 @@ The right one shows Federated Learning. Here, the initial Global Model ($GM$) is
 
 <div align="center">
 
-<img src="simulation_codes/figures/model_selection.jpeg" alt="Model Selection" width="80%"/>
+<img src="simulation_codes/figures/model_selection.jpeg" alt="Model Selection" width="100%"/>
 
 **Figure 2:** *The trade-off in adopting a homogeneous model approach within Standard Federated Learning (S-FL).*
 
@@ -42,7 +42,7 @@ As Figure 2 illustrates, in standard Federated Learning, the system's behaviour 
 
 <div align="center">
 
-<img src="simulation_codes/figures/HybridCompFL.jpeg" alt="HybridCompFL" width="80%"/>
+<img src="simulation_codes/figures/HybridCompFL.jpeg" alt="HybridCompFL" width="100%"/>
 
 **Figure 3:** *Data-free server-side hybrid model compression steps.*
 
