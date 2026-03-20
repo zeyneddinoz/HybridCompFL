@@ -77,3 +77,6 @@ The results reveal that (see Figure 4), despite substantial compression that req
 **Figure 4:** *Cross Model-Dataset Combination Comparisons of trained global model and pruned-then-quantized submodels.*
 
 </div>
+
+**Contact Information**
+Zeyneddin Oez: zeyneddin.oez@uni-siegen.de
