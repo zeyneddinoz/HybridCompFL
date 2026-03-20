@@ -63,7 +63,7 @@ The models, datasets, and hyperparameters utilized in this work are listed below
 
 
 
-![HybridCompFL](figures/HybridCompFL.jpeg)
+![HybridCompFL](simulation_codes/figures/HybridCompFL.jpeg)
 
 
 > [!NOTE]
