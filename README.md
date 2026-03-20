@@ -4,22 +4,26 @@
 
 This repository introduces the source code of the "Resource-aware Models via Pruning and Quantization in Heterogeneous Federated Learning" paper.
 
-## Experiments and Hardware
+**Authors:** [Zeyneddin Oez](https://orcid.org/0000-0002-4216-9854), [Farshad Taebi], [Saeedeh Ghanadbashi](https://orcid.org/0000-0003-0983-301X), [Muhammad Farooq], [Abdollah Malekjafarian](https://orcid.org/0000-0003-1358-1943), [Kristof Van Laerhoven](https://orcid.org/0000-0001-5296-5347), and [Fatemeh Golpayegani](https://orcid.org/0000-0002-3712-6550)
+
+**Affiliation:** [**University of Siegen**](https://www.uni-siegen.de/start/), and [**University College Dublin**](https://www.ucd.ie/)
+
+
+
+#### Experiments and Hardware
 
 Experiments were conducted using **Raspberry Pi** devices for lower-complexity models and a **simulation environment** for more resource-intensive tasks.
 
-### Real-World Device Experiments (Raspberry Pi)
+##### Real-World Device Experiments (Raspberry Pi)
 * **Datasets/Models:** MNIST (LeNet) and FashionMNIST (AlexNet).
 * **Source Code:** See the [`raspberry_pi_codes`](./raspberry_pi_codes) folder.
 
-### Simulation Experiments
+##### Simulation Experiments
 * **Datasets/Models:** CIFAR10 (VGG16).
 * **Note:** Due to the hardware constraints of Raspberry Pi for training VGG16, these experiments were performed in a simulated environment.
 * **Source Code:** See the [`simulation_codes`](./simulation_codes) folder.
 
-**Authors:** [Zeyneddin Oez](https://orcid.org/0000-0002-4216-9854), [Farshad Taebi], [Saeedeh Ghanadbashi](https://orcid.org/0000-0003-0983-301X), [Muhammad Farooq], [Abdollah Malekjafarian](https://orcid.org/0000-0003-1358-1943), [Kristof Van Laerhoven](https://orcid.org/0000-0001-5296-5347), and [Fatemeh Golpayegani](https://orcid.org/0000-0002-3712-6550)
 
-**Affiliation:** [**University of Siegen**](https://www.uni-siegen.de/start/), and [**University College Dublin**](https://www.ucd.ie/)
 
 
 **Abstract:** <p align="justify">  Federated Learning (FL) is a privacy-preserving distributed machine learning paradigm that trains models on-device and aggregates local updates to form a global model. However, resource-constrained edge devices often struggle with dense deep neural networks due to high computational demands, unreliable connectivity, and heterogeneity, leading prior approaches to exclude them (despite their unique data) or deploy smaller, less capable models. To address this, we propose a data-free hybrid compression framework that generates lightweight submodels via server-side pruning and quantization. The workflow includes: (i) distributing a dense model to all devices, (ii) training it locally on capable devices across specified global rounds, (iii) applying multiple pruning levels at the server to create sparsified variants of the aggregated model, (iv) quantizing these sparsified models to produce compressed, resource-efficient submodels, and (v) distributing the submodels to remaining constrained devices for use as optimized initial models. These models can then be tuned locally for personalization and performance improvement, or they can be used for further FL training among constrained devices for collaborative refinement. These submodels serve as optimal starting points that strike a balance between size, sparsity, and performance, enabling broader participation. Empirical evaluations across multiple models and datasets demonstrate that, under realistic constraints (e.g., 10\% capable devices, 60\% participation per round, imbalanced data distributions), submodels achieve 3.4x–4x size reductions with 40–60\% sparsity while retaining over 90\% of the original weighted F1 score. </p>
