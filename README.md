@@ -1,3 +1,6 @@
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 **⚠️ <span style="color:red">This README is currently under construction. Please check back later for updates. We appreciate your patience as we finalize the documentation. </span>**
 
 # HybridCompFL: Model-Heterogeneous Federated Learning via Data-free Hybrid Model Compression
