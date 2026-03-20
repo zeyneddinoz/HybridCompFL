@@ -38,8 +38,19 @@ The right one shows Federated Learning. Here, the initial Global Model ($GM$) is
 </div>
 
 
-As Figure 2 illustrates, in standard Federated Learning, the system's behaviour is influenced by the selection of a static global model. In heterogeneous environments, as the size of the global model increases, there is a corresponding decrease in the number of participating devices. Conversely, reducing the size of the global model may result in too few parameters to effectively capture the underlying patterns in the datasets. As a result, model-heterogeneous systems should be designed for such environments, which aligns well with real-world applications 
+As Figure 2 illustrates, in standard Federated Learning, the system's behaviour is influenced by the selection of a static global model. In heterogeneous environments, as the size of the global model increases, the number of participating devices decreases. Conversely, reducing the size of the global model may result in too few parameters to capture the underlying patterns in the datasets effectively. 
 
+To bridge these gaps, we combine and implement data-free model pruning and quantization methods on the server side to prevent extra workload on resource-constrained devices. Correspondingly, we introduce a framework designed to address both device heterogeneity and communication overhead challenges of FL. Our framework simulated and evaluated realistically, considering a non-IID setting by distributing data imbalanced across devices without overlap using the Dirichlet distribution, creating a more challenging, decentralized scenario for FL. Our approach results in a set of resource-aware submodels that enable resource-constrained devices to obtain optimum models based on their capacity. This is achieved by transferring learned parameters of a compressed pre-trained dense model obtained by capable devices.
+
+Our main contributions are the combination of:
+
+\begin{itemize}
+\item \textbf{Server-Side Data-Free Compression Pipeline:} Our framework introduces the practical viability of a fully server-side compression process that operates without access to client sources, ensuring privacy preservation while removing computational overhead from resource-constrained devices.
+
+\item \textbf{Hybrid Prune-Then-Quantize Compression for Tunable Submodels:} A novel integration of pruning followed by zero-aware quantization, generating a series of compressed submodels that achieve significant size reductions (3.4x–4x) with minimal performance degradation. Our method preserves sparsity during quantization, reducing memory and energy consumption during inference while enabling faster model communication in FL rounds and facilitating the sharing of resource-aware models on resource-constrained devices for local personalization or further FL, advancing inclusive FL deployment.
+
+\item \textbf{Realistic Simulation and Empirical Evaluation of FL Scenarios:} Incorporation of capability constraints, partial participation rates, and non-IID data imbalances to simulate real-world FL environments, demonstrating effective training with low overall participation (e.g., 10–20\% capable devices). This is complemented by a comprehensive analysis of sparsity, size, and model performance across multiple models and datasets, providing insights into hybrid compression's viability and trade-offs in heterogeneous FL.
+\end{itemize}
 
 The models, datasets, and hyperparameters utilized in this work are listed below:
 
