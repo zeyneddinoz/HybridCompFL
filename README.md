@@ -18,9 +18,11 @@ This repository introduces the source code of the "Resource-aware Models via Pru
   <img src="simulation_codes/figures/FL.jpeg" alt="Animated Demo" width="52%">
 </div>
 
-<p align="center">
-  <em>Figure 1: Each cylinder represents a device, and $d_n$ is the local dataset of the $n$-th device.</em>
-</p>
+<div align="center">
+
+*Figure 1: Each cylinder represents a device, and $d_n$ is the local dataset of the $n$-th device.*
+
+</div>
 
 The left figure shows that the server requires all data to train a central model (CM) in this system. For instance, device $d_1$ shares its datasets to participate to the system, so that the server can train a central model and then deploy it to device $d_1$. This process is the same for all devices in $D = \{d_1, d_2, \dots, d_n\}$. 
 
