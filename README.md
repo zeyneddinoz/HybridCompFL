@@ -61,9 +61,13 @@ The models, datasets, and hyperparameters utilized in this work are listed below
 
 
 
+<div align="center">
 
+<img src="simulation_codes/figures/HybridCompFL.jpeg" alt="HybridCompFL" width="80%"/>
 
-![HybridCompFL](simulation_codes/figures/HybridCompFL.jpeg)
+**Figure 3:** *Data-free server-side hybrid model compression steps.*
+
+</div>
 
 
 > [!NOTE]
