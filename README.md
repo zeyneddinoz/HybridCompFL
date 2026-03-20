@@ -44,13 +44,11 @@ To bridge these gaps, we combine and implement data-free model pruning and quant
 
 Our main contributions are the combination of:
 
-\begin{itemize}
-\item \textbf{Server-Side Data-Free Compression Pipeline:} Our framework introduces the practical viability of a fully server-side compression process that operates without access to client sources, ensuring privacy preservation while removing computational overhead from resource-constrained devices.
+* **Server-Side Data-Free Compression Pipeline:** Our framework introduces the practical viability of a fully server-side compression process that operates without access to client sources, ensuring privacy preservation while removing computational overhead from resource-constrained devices.
 
-\item \textbf{Hybrid Prune-Then-Quantize Compression for Tunable Submodels:} A novel integration of pruning followed by zero-aware quantization, generating a series of compressed submodels that achieve significant size reductions (3.4x–4x) with minimal performance degradation. Our method preserves sparsity during quantization, reducing memory and energy consumption during inference while enabling faster model communication in FL rounds and facilitating the sharing of resource-aware models on resource-constrained devices for local personalization or further FL, advancing inclusive FL deployment.
+* **Hybrid Prune-Then-Quantize Compression for Tunable Submodels:** A novel integration of pruning followed by zero-aware quantization, generating a series of compressed submodels that achieve significant size reductions (3.4x–4x) with minimal performance degradation. Our method preserves sparsity during quantization, reducing memory and energy consumption during inference while enabling faster model communication in FL rounds and facilitating the sharing of resource-aware models on resource-constrained devices for local personalization or further FL, advancing inclusive FL deployment.
 
-\item \textbf{Realistic Simulation and Empirical Evaluation of FL Scenarios:} Incorporation of capability constraints, partial participation rates, and non-IID data imbalances to simulate real-world FL environments, demonstrating effective training with low overall participation (e.g., 10–20\% capable devices). This is complemented by a comprehensive analysis of sparsity, size, and model performance across multiple models and datasets, providing insights into hybrid compression's viability and trade-offs in heterogeneous FL.
-\end{itemize}
+* **Realistic Simulation and Empirical Evaluation of FL Scenarios:** Incorporation of capability constraints, partial participation rates, and non-IID data imbalances to simulate real-world FL environments, demonstrating effective training with low overall participation (e.g., 10–20% capable devices). This is complemented by a comprehensive analysis of sparsity, size, and model performance across multiple models and datasets, providing insights into hybrid compression's viability and trade-offs in heterogeneous FL.
 
 The models, datasets, and hyperparameters utilized in this work are listed below:
 
