@@ -40,7 +40,15 @@ The right one shows Federated Learning. Here, the initial Global Model ($GM$) is
 
 As Figure 2 illustrates, in standard Federated Learning, the system's behaviour is influenced by the selection of a static global model. In heterogeneous environments, as the size of the global model increases, the number of participating devices decreases. Conversely, reducing the size of the global model may result in too few parameters to capture the underlying patterns in the datasets effectively. 
 
-To bridge these gaps, we combine and implement data-free model pruning and quantization methods on the server side to prevent extra workload on resource-constrained devices. Correspondingly, we introduce a framework designed to address both device heterogeneity and communication overhead challenges of FL. Our framework simulated and evaluated realistically, considering a non-IID setting by distributing data imbalanced across devices without overlap using the Dirichlet distribution, creating a more challenging, decentralized scenario for FL. Our approach results in a set of resource-aware submodels that enable resource-constrained devices to obtain optimum models based on their capacity. This is achieved by transferring learned parameters of a compressed pre-trained dense model obtained by capable devices.
+<div align="center">
+
+<img src="simulation_codes/figures/HybridCompFL.jpeg" alt="HybridCompFL" width="80%"/>
+
+**Figure 3:** *Data-free server-side hybrid model compression steps.*
+
+</div>
+
+To bridge these gaps, we combine and implement data-free model pruning and quantization methods on the server side to prevent extra workload on resource-constrained devices (see Figure 3). Correspondingly, we introduce a framework designed to address both device heterogeneity and communication overhead challenges of FL. Our framework simulated and evaluated realistically, considering a non-IID setting by distributing data imbalanced across devices without overlap using the Dirichlet distribution, creating a more challenging, decentralized scenario for FL. Our approach results in a set of resource-aware submodels that enable resource-constrained devices to obtain optimum models based on their capacity. This is achieved by transferring learned parameters of a compressed pre-trained dense model obtained by capable devices.
 
 Our main contributions are the combination of:
 
@@ -58,18 +66,3 @@ The models, datasets, and hyperparameters utilized in this work are listed below
 | LeNet & MNIST     | FedAVG               | 50           | 50                          | 0.6                | 0.1                           | 5           | 64         | Adam      | 0.001         |
 | AlexNet & FMNIST  | FedAVG               | 50           | 50                          | 0.6                | 0.1                           | 5           | 64         | Adam      | 0.001         |
 | VGG16 & CIFAR10   | FedAVG               | 100          | 50                          | 0.6                | 0.2                           | 5           | 64         | Adam      | 0.001         |
-
-
-
-<div align="center">
-
-<img src="simulation_codes/figures/HybridCompFL.jpeg" alt="HybridCompFL" width="80%"/>
-
-**Figure 3:** *Data-free server-side hybrid model compression steps.*
-
-</div>
-
-
-> [!NOTE]
->
-> > In the current version of the code, min_nonzero=0.01, this causes a high sparsification result during quantization (While sparsification amount is 0.1, and sparsification % of sparsed model is 10%, for the quantized model it can increase to about 60%, due to many weights in the VGG16 trained with CIFAR10 being smaller than 0.01).
