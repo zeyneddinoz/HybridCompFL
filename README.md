@@ -4,6 +4,19 @@
 
 This repository introduces the source code of the "Resource-aware Models via Pruning and Quantization in Heterogeneous Federated Learning" paper.
 
+## Experiments and Hardware
+
+Experiments were conducted using **Raspberry Pi** devices for lower-complexity models and a **simulation environment** for more resource-intensive tasks.
+
+### Real-World Device Experiments (Raspberry Pi)
+* **Datasets/Models:** MNIST (LeNet) and FashionMNIST (AlexNet).
+* **Source Code:** See the [`raspberry_pi_codes`](./raspberry_pi_codes) folder.
+
+### Simulation Experiments
+* **Datasets/Models:** CIFAR10 (VGG16).
+* **Note:** Due to the hardware constraints of Raspberry Pi for training VGG16, these experiments were performed in a simulated environment.
+* **Source Code:** See the [`simulation_codes`](./simulation_codes) folder.
+
 **Authors:** [Zeyneddin Oez](https://orcid.org/0000-0002-4216-9854), [Farshad Taebi], [Saeedeh Ghanadbashi](https://orcid.org/0000-0003-0983-301X), [Muhammad Farooq], [Abdollah Malekjafarian](https://orcid.org/0000-0003-1358-1943), [Kristof Van Laerhoven](https://orcid.org/0000-0001-5296-5347), and [Fatemeh Golpayegani](https://orcid.org/0000-0002-3712-6550)
 
 **Affiliation:** [**University of Siegen**](https://www.uni-siegen.de/start/), and [**University College Dublin**](https://www.ucd.ie/)
