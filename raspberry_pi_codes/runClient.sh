@@ -9,7 +9,7 @@ FILE="./$1"
 
 SERVERS=("client1_ip" "client2_ip" "client3_ip" "client4_ip" "client5_ip")
 #FILE="./client.py"
-DEST_PATH="/home/ubuntu/FL/testFL/FL/$1"
+DEST_PATH="/Path to Client.py on your clients$1"
 
 for i in "${!SERVERS[@]}"; do
   server="${SERVERS[$i]}"
